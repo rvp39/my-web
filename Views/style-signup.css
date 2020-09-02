@@ -1,0 +1,29 @@
+.darkmode{
+    background-color: rgb(29, 29, 29);
+    color: white;
+}
+
+#c2{
+    width: 50%;
+    padding-left: 0;
+    padding-right: 10px;
+}
+table{
+    background-color: rgba(255, 255,255, 0.5);
+    margin-top: 200px;
+    padding: 10px;
+    
+}
+td{ text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 2%;
+}
+img{
+    width: 150px;
+}
+#image{
+    
+    padding-left: 50px;
+
+}
