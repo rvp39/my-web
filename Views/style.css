@@ -92,8 +92,9 @@ body{
     height: 100vh;
     width: 94.8%;
     background-color: rgba(0, 0, 0, 0.582);
+    transition: width 0.2s ease;
     
 }
-.bckdrp.open{
+.open{
     opacity: 1;
 }
