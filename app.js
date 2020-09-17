@@ -8,7 +8,7 @@ app.set("view engine","ejs")
 
 app.get("/",function(req,res){
 
-    res.render("index");
+    res.render("index.html");
 });
 app.get("/signup",function(req,res){
     res.render("signup _form")
