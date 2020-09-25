@@ -6,6 +6,11 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("Views"))
 app.set("view engine","ejs")
 
+
+
+
+
+
 app.get("/",function(req,res){
 
     res.render("index");
@@ -13,7 +18,14 @@ app.get("/",function(req,res){
 app.get("/home",function(req,res){
     res.render("home");
 });
-app.get("/signup",function(req,res){
-    res.render("signup _form")
-})
+
+
+
+
+
+
+
+
+
+
 app.listen(3000)
